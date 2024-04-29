@@ -1,0 +1,129 @@
+.menu-section {
+    margin-bottom: 115px;
+    .menu-section__content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h5 {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.2em;
+            color: #DC780B;
+            opacity: .7;
+            text-align: center;
+            margin-bottom: 9px;
+        }
+        h2 {
+            font-family: Philosopher;
+            font-size: 31.25px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+            color: #150C01;
+            margin-bottom: 25px;
+        }
+        .menu__desc {
+            max-width: 748px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: #150C01;
+            opacity: .7;
+            margin-bottom: 60px;
+        }
+        .menu__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            .menu__card {
+                max-width: 360px;
+                border: 1px solid #0000001A;
+                border-radius: 75px 10px 10px 10px;
+                overflow: hidden;
+                .menu__card-img {
+                    width: 360px;
+                    height: 264px;
+                    
+                    object-fit: cover;
+                }
+                .menu__card-title {
+                    padding: 21px 25px 25px 25px;
+                    div {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                        h3 {
+                            font-family: Philosopher;
+                            font-size: 25px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            color: #150C01;
+                            display: -webkit-box;
+                            -webkit-box-orient: vertical;
+                            -webkit-line-clamp: 1;
+                            overflow: hidden;
+                        }
+                    }
+                    p {
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        color: #150C01;
+                        opacity: .7;
+                        margin-bottom: 20px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                    }
+                    article {
+                        display: flex;
+                        justify-content: space-between;
+                        button {
+                            padding: 5px 11px;
+                            border-radius: 5px;
+                            background: #DC780B;
+                            border: 1px solid #DC780B;
+                            color: #fff;
+                            font-size: 16px;
+                            &:hover {
+                                transform: .2s;
+                                background: white;
+                                color: #DC780B;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .menu-section__btn {
+            padding: 12px 30px;
+            margin-top: 50px;
+            border: 1px solid #FBF1E7;
+            border-radius: 5px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.75px;
+            color: #DC780B;
+            text-align: center;
+            &:active {
+                transition: .2s;
+                scale: .97;
+            }
+            &:hover {
+                transition: .2s;
+                border-color: #DC780B;
+                background: #DC780B;
+                color: white;
+            }
+        }
+    }
+}

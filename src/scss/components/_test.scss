@@ -1,0 +1,72 @@
+.test-section {
+    margin-bottom: 120px;
+    .test-section__content {
+        .test__title {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 73px;
+            h5 {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.2em;
+                color: #DC780B;
+                opacity: .7;
+                margin-bottom: 12px;
+            }
+            h2 {
+                font-family: Philosopher;
+                font-size: 31.25px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: 23px;
+            }
+            p {
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                opacity: .7;
+                max-width: 750px;
+            }
+        }
+        .test__profile {
+            text-align: center;
+            display: flex;
+            align-items: center; 
+            flex-direction: column;
+            justify-content: center;
+            p {
+                margin-top: 42px;
+                margin-bottom: 20px;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                max-width: 506px;
+
+            }
+            h4 {
+                margin-top: 32px;
+                margin-bottom: 6px;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 18.75px;
+
+            }
+            h5 {
+                font-family: Roboto;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 14.06px;
+                text-align: left;
+                color: black;
+                opacity: .7;
+            }
+        }
+    }
+}
