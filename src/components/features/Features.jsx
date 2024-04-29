@@ -7,7 +7,7 @@ import FeaturesImg3 from '../../images/features3.svg'
 export default class Features extends Component {
   render() {
     return (
-      <div className='features-section'>
+      <div id='features' className='features-section'>
         <div className="container">
             <div className="features-section__content">
                 <h4>Features</h4>

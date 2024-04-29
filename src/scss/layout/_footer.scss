@@ -1,1 +1,59 @@
 @use '../abstracts' as *;
+
+footer {
+    background: #252525;
+    padding: 137px 104px;
+    .footer__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        .footer__title {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;
+            img {
+                margin-bottom: 8px;
+                width: 61px;
+                height: 60px;
+            }
+            li {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                color: #FFFFFF;
+                opacity: .7;
+            }
+        }
+        .footer__list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h3 {
+                font-family: Philosopher;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 20.16px;
+                color: #FFFFFF;
+                margin-bottom: 6px;
+            }
+            li {
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                opacity: .7;
+                color: white;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+            div {
+                margin-top: 5px;
+                display: flex;
+                gap: 10px;
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@ import AboutHeroImg from '../../images/aboutHeroImg.png'
 export default class About extends Component {
   render() {
     return (
-      <div className='about-section'>
+      <div id='about' className='about-section'>
         <div className="container">
             <div className="about-section__content">
                 <img src={AboutHeroImg} alt="hero img" />

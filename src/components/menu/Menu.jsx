@@ -18,7 +18,7 @@ export default class Menu extends Component {
     }
   render() {
     return (
-      <div className='menu-section'>
+      <div id='menu' className='menu-section'>
         <div className="container">
             <div className="menu-section__content">
                 <h5>MENU</h5>

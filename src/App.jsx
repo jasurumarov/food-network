@@ -7,6 +7,7 @@ import About from './components/about/About'
 import Menu from './components/menu/Menu'
 import Test from './components/test/Test'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Menu/>
       <Test/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
