@@ -20,11 +20,11 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 40px;
-                li:first-child {
-                    color: #DC780B;
-                    opacity: 1;
-                }
                 li {
+                    .home {
+                        color: #DC780B;
+                        opacity: 1;
+                    }
                     a {
                         font-size: 16px;
                         font-weight: 500;

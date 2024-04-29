@@ -19,7 +19,7 @@ export default class Header extends Component {
               <img src={SiteLogo} alt="site logo" />
               <ul className={`navbar__left-list ${this.state.toggle ? "show" : ""}`}>
                 <li>
-                  <a href="#">
+                  <a className='home' href="#">
                     Home
                   </a>
                 </li>

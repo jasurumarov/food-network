@@ -26,7 +26,7 @@ export default class Menu extends Component {
                 <p className="menu__desc">There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, </p>
                 <div className="menu__cards">
                     {
-                        this.state.data?.map(el => (
+                        this.state.data?.slice(0, 6).map(el => (
                             <div key={el.id} className="menu__card">
                                 <img className='menu__card-img' src={el.images[0]} alt="card img" />
                                 <div className="menu__card-title">
@@ -38,7 +38,7 @@ export default class Menu extends Component {
                                     <article>
                                         <button>+</button>
                                         <span>
-                                            {new Array(Math.round(el.rating)).fill(<IoStar/>)}
+                                            {new Array(Math.round(el.rating)).fill(<IoStar className='rate'/>)}
                                         </span>
                                     </article>
                                 </div>
